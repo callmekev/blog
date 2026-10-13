@@ -112,5 +112,5 @@ if __name__ == "__main__":
 | 設定預設分支名稱（通常為 main） | git branch -M main                                                                                                                                                                                                        |
 | 首次推送至遠端            | git push -u origin main（彈出需要account 如github 的PAT）<br><br>加上 -u（--set-upstream）：<br><br>用途：第一次推送時使用，用來告訴 Git：「把本機的 main 分支和遠端的 origin/main 綁定在一起」。<br><br>好處：設定之後，以後你只要在該分支直接輸入 git push 或 git pull 即可，不用每次都打 origin main。 |
 | 拉取遠端最新更新           | git pull origin main                                                                                                                                                                                                      |
-|                    |                                                                                                                                                                                                                           |
+
 
